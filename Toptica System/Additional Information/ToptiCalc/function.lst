@@ -1,0 +1,4 @@
+function rad(deg):=deg/180*Pi
+function deg(rad):=rad/Pi*180
+function gauss(x;fwhm):=Exp(-4*Ln(2)*x^2/fwhm^2)
+function d_lambda(lambda_nm;d_f_ghz):=-d_f_ghz*1000000000*(lambda_nm*1E-9)^2/299792458/1E-9
